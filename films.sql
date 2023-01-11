@@ -1,3 +1,5 @@
+https://api.elephantsql.com/console/1575eb7d-75f4-4d9a-865f-9e3cd07e03e2/browser?#
+
 -------- STANDARD --------
 
 CREATE TABLE films (
@@ -64,5 +66,3 @@ SELECT COUNT(title) FROM films
 --Return the average film rating by genre
 SELECT genre, AVG(score)FROM films
 GROUP BY genre
-
--------- EXT 2 --------
